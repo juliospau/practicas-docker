@@ -55,7 +55,11 @@ docker build . -t server-img
 docker run --name servidor-cont -dit -p 8080:8080 server-img
 ```
 
+### Resultado
+
+![Resultado de la ejecución](./resultado.png)
+
 ## Referencias
 
-- **(DIFERENCIA entre CMD, RUN, y ENTRYPOINT en DOCKER - V2M)[https://www.youtube.com/watch?v=6ZnecM3ipu4]**
-- **(Contenedor en DockerHub. Tag: 3.8-alpine)[https://hub.docker.com/_/python]**
+- **[DIFERENCIA entre CMD, RUN, y ENTRYPOINT en DOCKER - V2M](https://www.youtube.com/watch?v=6ZnecM3ipu4)**
+- **[Contenedor en DockerHub. Tag: 3.8-alpine](https://hub.docker.com/_/python)**
